@@ -22,6 +22,7 @@ df=df.dropna()
 #df.head()
 df = df.reset_index()
 #df
+st.write("Input DATA")
 st.dataframe(df)
 X=np.array(df["Sunrise"]).reshape(-1,1)
 y=np.array(df['AvgTemp']).reshape(-1,1)
