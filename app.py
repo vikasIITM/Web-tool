@@ -14,8 +14,8 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.linear_model import LogisticRegression
 from sklearn.tree import DecisionTreeRegressor
 import pandas as pd
-from prophet.plot import plot_plotly, plot_components_plotly
-from prophet import Prophet
+#from prophet.plot import plot_plotly, plot_components_plotly
+#from prophet import Prophet
 df=pd.read_csv('Daily.txt',index_col='DATE',parse_dates=True)
 df=df.dropna()
 #print('Shape of data',df.shape)
