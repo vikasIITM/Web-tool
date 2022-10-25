@@ -28,6 +28,17 @@ X=np.array(df["Sunrise"]).reshape(-1,1)
 y=np.array(df['AvgTemp']).reshape(-1,1)
 scaler = MinMaxScaler()
 scaler.fit(X,y)
+
+X1=scaler.fit_transform(X)
+y1=scaler.fit_transform(y)
+dfl = pd.DataFrame(X1,columns = ['Sunrise_Normalised'])
+dfl['Sunrise'] = X
+dfl['AvgTemp_Normalised'] = y1
+dfl['AvgTemp']=y
+dfl
+st.write("Normalized Data")
+st.dataframe(dfl)
+
 model  = pickle.load(open("model.pkl",'rb'))
 st.title("Web tool for prediction of Non-Linear Dynamical Systems.")
 
