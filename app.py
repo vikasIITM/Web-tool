@@ -29,7 +29,7 @@ y=np.array(df['AvgTemp']).reshape(-1,1)
 scaler = MinMaxScaler()
 scaler.fit(X,y)
 model  = pickle.load(open("model.pkl",'rb'))
-st.title("Web tool for perdiction of Non - Linear Dynamical Systems.")
+st.title("Web tool for prediction of Non-Linear Dynamical Systems.")
 
 
 
