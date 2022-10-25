@@ -35,7 +35,6 @@ dfl = pd.DataFrame(X1,columns = ['Sunrise_Normalised'])
 dfl['Sunrise'] = X
 dfl['AvgTemp_Normalised'] = y1
 dfl['AvgTemp']=y
-dfl
 st.write("Normalized Data")
 st.dataframe(dfl)
 
