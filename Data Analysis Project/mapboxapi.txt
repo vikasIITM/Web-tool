@@ -1,0 +1,8 @@
+
+Api for india
+w = 350 , H = 380
+https://api.mapbox.com/styles/v1/rajan32s/cl9skyfmd008h14p07qeealrt/static/83.0756,23.3815,3.09,0/350x380@2x?before_layer=admin-0-boundary-bg&access_token=pk.eyJ1IjoicmFqYW4zMnMiLCJhIjoiY2w5ODd5enV5MDBtajNzbzZ1a3ZjMnVxcSJ9.c2CycsFb8nHLlMwFE2-7iA
+
+Api for NWH
+w = 500 , H = 320
+https://api.mapbox.com/styles/v1/rajan32s/cl9skyfmd008h14p07qeealrt/static/80.6457,32.8714,4.44,0/500x320@2x?before_layer=admin-0-boundary-bg&access_token=pk.eyJ1IjoicmFqYW4zMnMiLCJhIjoiY2w5ODd5enV5MDBtajNzbzZ1a3ZjMnVxcSJ9.c2CycsFb8nHLlMwFE2-7iA
