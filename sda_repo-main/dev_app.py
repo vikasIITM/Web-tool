@@ -17,15 +17,15 @@ import geopandas as gpd
 
 
 st.set_page_config(page_title="SDA", page_icon=None, layout="centered", initial_sidebar_state="auto", menu_items=None)
-# file_ = open("Header.gif", "rb")
-# contents = file_.read()
-# data_url = base64.b64encode(contents).decode("utf-8")
-# file_.close()
+file_ = open("Header.gif", "rb")
+contents = file_.read()
+data_url = base64.b64encode(contents).decode("utf-8")
+file_.close()
 
-# st.markdown(
-#     f'<img src="data:image/gif;base64,{data_url}" alt="cat gif">',
-#     unsafe_allow_html=True,
-# )
+st.markdown(
+    f'<img src="data:image/gif;base64,{data_url}" alt="cat gif">',
+    unsafe_allow_html=True,
+)
 ZOOM = 4.85
 OPE = 0.99
 RADIUS = 17
